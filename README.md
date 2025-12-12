@@ -2,9 +2,8 @@
 
 A modern, responsive portfolio website built with Vite and vanilla JavaScript.
 
-## 🚀 Live Demo
-
-[View Portfolio](_)*https://my-portfolio-five-sigma-oj5g4xnpwm.vercel.app/*
+## 🚀 Live Demo 
+*https://my-portfolio-five-sigma-oj5g4xnpwm.vercel.app/*
 
 ## ✨ Features
 
