@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Vite and vanilla JavaScript.
 
 ## Live Demo
 
-[roycs-portfolio.vercel.app]
+roycs-portfolio.vercel.app
 
 ## Features
 
@@ -100,5 +100,3 @@ Edit `src/styles/variables.css`:
 Apache 2.0
 
 ---
-
-Shashwata Roy
