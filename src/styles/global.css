@@ -1,4 +1,3 @@
-/* Global Styles - Professional */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 *,
@@ -11,6 +10,7 @@ html {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 body {
@@ -24,7 +24,6 @@ body {
     transition: background-color var(--transition-base), color var(--transition-base);
 }
 
-/* Container */
 .container {
     width: 100%;
     max-width: var(--container-max-width);
@@ -32,7 +31,6 @@ body {
     padding: 0 var(--container-padding);
 }
 
-/* Section Spacing */
 .section {
     padding: var(--space-24) 0;
     position: relative;
@@ -44,7 +42,6 @@ body {
     }
 }
 
-/* Typography */
 h1,
 h2,
 h3,
@@ -84,14 +81,12 @@ strong {
     color: var(--color-text-primary);
 }
 
-/* Links */
 a {
     color: inherit;
     text-decoration: none;
     transition: color var(--transition-base);
 }
 
-/* Buttons - Professional Style */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -144,7 +139,6 @@ a {
     background: var(--color-surface);
 }
 
-/* Cards - Refined */
 .card {
     background: var(--color-bg-secondary);
     border: 1px solid var(--color-border-subtle);
@@ -158,7 +152,6 @@ a {
     box-shadow: var(--shadow-md);
 }
 
-/* Gradient Text */
 .gradient-text {
     background: var(--color-accent-gradient);
     -webkit-background-clip: text;
@@ -166,13 +159,11 @@ a {
     background-clip: text;
 }
 
-/* Focus States */
 :focus-visible {
     outline: 2px solid var(--color-accent-primary);
     outline-offset: 2px;
 }
 
-/* Skip Link */
 .skip-to-main {
     position: absolute;
     top: -100px;
@@ -189,7 +180,6 @@ a {
     top: var(--space-4);
 }
 
-/* Fade In Animation */
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
@@ -201,7 +191,6 @@ a {
     transform: translateY(0);
 }
 
-/* Section Headers */
 .section-header {
     text-align: center;
     margin-bottom: var(--space-16);
@@ -221,7 +210,6 @@ a {
     margin: 0;
 }
 
-/* Subtle Background Gradients */
 .bg-gradient-subtle::before {
     content: '';
     position: absolute;

@@ -1,4 +1,3 @@
-/* About Section - Clean & Professional */
 .about {
     position: relative;
 }
@@ -25,7 +24,6 @@
     margin-bottom: var(--space-4);
 }
 
-/* Education Timeline - Refined */
 .education-timeline {
     position: relative;
     padding-left: var(--space-8);

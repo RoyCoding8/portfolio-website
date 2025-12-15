@@ -1,11 +1,7 @@
-/* Main Stylesheet - Import Order */
-
-/* Foundation */
 @import './reset.css';
 @import './variables.css';
 @import './global.css';
 
-/* Components */
 @import './components/nav.css';
 @import './components/hero.css';
 @import './components/about.css';
@@ -16,3 +12,4 @@
 @import './components/footer.css';
 @import './components/theme-toggle.css';
 @import './components/social-icons.css';
+@import './components/sidebar.css';

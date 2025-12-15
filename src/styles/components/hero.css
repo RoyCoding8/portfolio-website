@@ -1,4 +1,3 @@
-/* Hero Section - Professional & Sleek */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -8,7 +7,6 @@
     overflow: hidden;
 }
 
-/* Subtle gradient orb background */
 .hero-bg-gradient {
     position: absolute;
     inset: 0;
@@ -140,7 +138,6 @@
     transform: translateY(-2px);
 }
 
-/* Stats Grid */
 .hero-visual {
     opacity: 0;
     animation: fadeUp 0.6s ease-out 0.5s forwards;

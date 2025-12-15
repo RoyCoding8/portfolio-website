@@ -1,4 +1,3 @@
-// Scroll-triggered Animations using Intersection Observer
 export function initScrollAnimations() {
     const observerOptions = {
         threshold: 0.1,
@@ -13,14 +12,12 @@ export function initScrollAnimations() {
         });
     }, observerOptions);
 
-    // Observe all fade-in elements
     const fadeElements = document.querySelectorAll('.fade-in');
     fadeElements.forEach(element => {
         observer.observe(element);
     });
 }
 
-// Add animation class to cards on hover
 export function initCardAnimations() {
     const cards = document.querySelectorAll('.card, .project-card, .achievement-card, .skill-category');
 

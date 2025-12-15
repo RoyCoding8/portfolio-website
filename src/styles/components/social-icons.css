@@ -1,4 +1,3 @@
-/* Social Icons - SVG Sprites */
 .icon-github,
 .icon-linkedin,
 .icon-twitter,
@@ -17,7 +16,6 @@
     fill: currentColor;
 }
 
-/* Social icon SVG elements */
 .social-link .icon-github svg {
     fill: var(--color-text-primary);
 }
