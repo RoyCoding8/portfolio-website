@@ -1,0 +1,130 @@
+:root {
+    --color-bg-primary: #0f141b;
+    --color-bg-secondary: #141c26;
+    --color-bg-tertiary: #1b2633;
+    --color-bg-elevated: #223041;
+    --color-surface: rgba(152, 177, 205, 0.08);
+    --color-surface-hover: rgba(152, 177, 205, 0.14);
+    --color-border: rgba(152, 177, 205, 0.28);
+    --color-border-subtle: rgba(152, 177, 205, 0.16);
+
+    --color-text-primary: #e9f1fb;
+    --color-text-secondary: #c4d3e6;
+    --color-text-muted: #93a9c2;
+    --color-text-on-accent: #ecf5ff;
+
+    --color-accent-primary: #2f7fda;
+    --color-accent-secondary: #3c91eb;
+    --color-accent-tertiary: #8ec4ff;
+    --color-accent-gradient: linear-gradient(135deg, #2f7fda 0%, #4ea2f0 100%);
+    --color-accent-glow: rgba(62, 145, 235, 0.16);
+
+    --color-success: #22c55e;
+    --color-warning: #eab308;
+    --color-error: #ef4444;
+
+    --font-family-primary: 'Manrope', 'Avenir Next', 'Segoe UI', sans-serif;
+    --font-family-display: 'Manrope', var(--font-family-primary);
+    --font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2rem;
+    --font-size-4xl: 2.5rem;
+    --font-size-5xl: 3.5rem;
+    --font-size-6xl: 4.5rem;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.7;
+    --letter-spacing-tight: -0.02em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.05em;
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+    --space-32: 8rem;
+
+    --container-max-width: 1200px;
+    --container-padding: var(--space-6);
+
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-2xl: 24px;
+    --radius-full: 9999px;
+
+    --shadow-sm: 0 1px 2px rgba(9, 14, 20, 0.25);
+    --shadow-md: 0 8px 20px rgba(9, 14, 20, 0.24);
+    --shadow-lg: 0 12px 30px rgba(9, 14, 20, 0.28);
+    --shadow-xl: 0 20px 42px rgba(9, 14, 20, 0.3);
+    --shadow-glow: 0 0 40px var(--color-accent-glow);
+    --shadow-glow-lg: 0 0 80px var(--color-accent-glow);
+
+    --transition-fast: 150ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    --transition-base: 220ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    --transition-slow: 320ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    --transition-spring: 320ms cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    --z-base: 1;
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal: 400;
+    --z-tooltip: 500;
+}
+
+[data-theme="light"] {
+    --color-bg-primary: #f3f7fc;
+    --color-bg-secondary: #edf3fa;
+    --color-bg-tertiary: #e4edf7;
+    --color-bg-elevated: #dce8f5;
+    --color-surface: rgba(37, 85, 139, 0.06);
+    --color-surface-hover: rgba(37, 85, 139, 0.1);
+    --color-border: rgba(45, 88, 137, 0.24);
+    --color-border-subtle: rgba(45, 88, 137, 0.14);
+
+    --color-text-primary: #1d3248;
+    --color-text-secondary: #2f4a63;
+    --color-text-muted: #4f6b84;
+    --color-text-on-accent: #f5f9ff;
+
+    --color-accent-primary: #1f66bb;
+    --color-accent-secondary: #2c79d3;
+    --color-accent-tertiary: #6ca8e5;
+    --color-accent-gradient: linear-gradient(135deg, #1f66bb 0%, #2c79d3 100%);
+    --color-accent-glow: rgba(31, 102, 187, 0.1);
+
+    --shadow-sm: 0 1px 2px rgba(38, 66, 96, 0.08);
+    --shadow-md: 0 8px 20px rgba(38, 66, 96, 0.12);
+    --shadow-lg: 0 12px 30px rgba(38, 66, 96, 0.15);
+    --shadow-xl: 0 20px 42px rgba(38, 66, 96, 0.18);
+}
+
+@media (max-width: 768px) {
+    :root {
+        --font-size-5xl: 2.5rem;
+        --font-size-6xl: 3rem;
+        --container-padding: var(--space-4);
+    }
+}
