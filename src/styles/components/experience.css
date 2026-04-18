@@ -63,6 +63,12 @@
     margin-top: var(--space-1);
 }
 
+.experience-links {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
 .experience-link {
     color: var(--color-text-secondary);
     padding: var(--space-1);

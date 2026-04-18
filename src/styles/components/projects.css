@@ -103,6 +103,28 @@
     transform: translateX(2px);
 }
 
+.project-links {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-top: var(--space-5);
+}
+
+.project-link-icon {
+    margin-top: 0;
+    padding: var(--space-2);
+    border-bottom: none;
+    border-radius: var(--radius-sm);
+    color: var(--color-text-secondary);
+}
+
+.project-link-icon:hover {
+    color: var(--color-text-primary);
+    background: var(--color-surface);
+    transform: none;
+    border-color: transparent;
+}
+
 @media (max-width: 768px) {
     .project-head {
         flex-direction: column;
